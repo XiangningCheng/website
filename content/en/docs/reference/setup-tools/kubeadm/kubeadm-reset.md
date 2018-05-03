@@ -12,7 +12,7 @@ content_template: templates/concept
 {{% capture body %}}
 {{< include "generated/kubeadm_reset.md" >}}
 
-### External etcd clean up
+### External etcd clean up!
 
 `kubeadm reset` will not delete any etcd data if external etcd is used. This means that if you run `kubeadm init` again using the same etcd endpoints, you will see state from previous clusters. 
 
